@@ -4,6 +4,14 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-6">🧠 JavaScript Playground</h1>
       <ul className="space-y-2 list-disc pl-5">
         <li>
+          <a
+            className="text-blue-500 hover:underline"
+            href="/javascript/clusters/scope"
+          >
+            scope & hoisting
+          </a>
+        </li>
+        <li>
           <a className="text-blue-500 hover:underline" href="/this">
             this keyword
           </a>
